@@ -33,11 +33,11 @@ topnav.forEach(function(item){
 // Download CV
 const cv = document.querySelector('.btn-containers .btn-cv')
 cv.addEventListener('click',() => {
-    window.open('./portfolio/Sources/履歴書-李雪剣.pdf')
+    window.open('./portfolio/sources/CV1')
 })
 const btnInfo = document.querySelector('.btn-containers .btn-info')
 btnInfo.addEventListener('click', () => {
-    window.open('./portfolio/Sources/職務経歴書-李雪剣.pdf')
+    window.open('./portfolio/sources/CV2.pdf')
 })
 
 
