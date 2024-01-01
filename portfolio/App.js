@@ -33,7 +33,7 @@ topnav.forEach(function(item){
 // Download CV
 const cv = document.querySelector('.btn-containers .btn-cv')
 cv.addEventListener('click',() => {
-    window.open('./portfolio/sources/CV1')
+    window.open('./portfolio/sources/CV1.pdf')
 })
 const btnInfo = document.querySelector('.btn-containers .btn-info')
 btnInfo.addEventListener('click', () => {
