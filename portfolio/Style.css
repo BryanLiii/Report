@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans', sans-serif; */
+}
+html {
+    font-family: 'Kanit', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+}
+.topbar {
+    height: 80px;
+    z-index: 1000;
+    background-color: rgb(116, 114, 114);
+    display: flex;
+    justify-content: space-evenly;
+}
+.name {
+    margin: auto 0;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;  
+    
+}
+.name span {
+    color: purple;
+    font-weight: 500;
+}
+.name:hover {
+    cursor: default;
+}
+.topbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.topbar ul a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 70px;
+    color: white;
+    scroll-behavior: smooth;
+}
+.topbar ul a:hover {
+    transform: scale(1.5);
+    color: purple;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+/* main-content-section */
+.content {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.main-photo  {
+    height: 500px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.3);
+}
+.main-photo img {
+    width: 450px;
+    margin-top: -140px;
+}
+.introduction-containers {
+    height: 500px;
+    width: 450px;
+}
+.brief-introduction h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.brief-introduction h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.brief-introduction p {
+    text-align: center;
+}
+.btn-containers {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
+}
+.btn-containers button {
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#8052ec,#d161ff);
+    transition: all 0.2s;
+}
+.btn-containers button:hover {
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* about-me Section */
+#about-me {
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+}
+.section-titel h2{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.about-me-photo {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-me-photo img {
+    height: 300px;
+    width: 460px;
+    background-color: black;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.3);
+}
+.about-me-photo h3{
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 3px dashed rgb(94, 94, 94);
+}
+.about-me-photo p {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 16px;
+    width: 450px;
+}
+
+/* experience-section */
+#experience-section {
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+}
+.job-containers {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.job-containers .coding, .working-experience {
+    height: 600px;
+    width: 460px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding-top: 30px;
+}
+.Pro-languages {
+    margin-left: 28%;
+    margin-top: 35px;
+}
+.job-containers h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.Pro-languages div {
+    margin-bottom: 20px;
+    display: flex;
+}
+.Pro-languages img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.Pro-languages h4 {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.skills {
+    margin-top: 35px;
+}
+.working-experience h4 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* project-container */
+#projects-section {
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+}
+.project-container {
+    margin-top: 50px;
+    margin-left: 15%;
+    display: flex;
+}
+.project-img img {
+    border-radius: 30px;
+    background-color: rgb(116, 114, 114);
+    width: 90%;
+    height: 90%;
+}
+.project-description {
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    padding-top: 150px;
+}
+.project-description h3 {
+    font-size: 30px;
+    line-height: 80px;
+}
+.project-description button {
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#8052ec,#d161ff);
+    transition: all 0.2s;
+    margin-top: 20px;
+}
+.project-description button:hover {
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Contact section */
+#contact-section {
+    height: 60vh;
+    width: 100%;
+    padding: 70px;
+}
+.cotact-info {
+    height: 150px;
+    width: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-left: 12%;
+    padding-top: 25px;
+    border: 3px dashed black;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.cotact-info div {
+    display: flex;
+}
+.cotact-info img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cotact-info p {
+    font-size: 25px;
+}
+
+
+
+
+/* Footer section */
+.footer-section {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(116, 114, 114);
+    text-align: center;
+    line-height: 35px;
+}
+.footer-section a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+}
