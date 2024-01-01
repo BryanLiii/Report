@@ -33,18 +33,18 @@ topnav.forEach(function(item){
 // Download CV
 const cv = document.querySelector('.btn-containers .btn-cv')
 cv.addEventListener('click',() => {
-    window.open('/portfolio/Sources/履歴書-李雪剣.pdf')
+    window.open('./portfolio/Sources/履歴書-李雪剣.pdf')
 })
 const btnInfo = document.querySelector('.btn-containers .btn-info')
 btnInfo.addEventListener('click', () => {
-    window.open('/portfolio/Sources/職務経歴書-李雪剣.pdf')
+    window.open('./portfolio/Sources/職務経歴書-李雪剣.pdf')
 })
 
 
 // project section
 const ckbtn = document.querySelector('.check-it')
 ckbtn.addEventListener('click',() => {
-    location.href = '/calculator/Index.html'
+    location.href = './Calculator/index.html'
 })
 
 // footer
